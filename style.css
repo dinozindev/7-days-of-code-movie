@@ -11,7 +11,7 @@
 
 body {
     font-family: var(--main-font);
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     background-color: var(--bg-color);
 }
@@ -75,5 +75,68 @@ body {
 
 label {
     color: #fff;
+}
+
+.test {
+    padding: 2rem 0;
+    width: 60%;
+    justify-content: center;
+    color: #fff;
+}
+
+.movie__item {
+    width: 100%;
+    background-color: var(--bg-item-color);
+    border-radius: 8px; 
+    margin-bottom: 2rem;
+    height: 13rem;
+    padding: 0 2rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0.3335185647010803px 0.24931815266609192px 2.4224610328674316px 0px rgba(0, 0, 0, 0.03), 1.4366953372955322px 1.0739859342575073px 4.567187309265137px 0px rgba(0, 0, 0, 0.05), 3.4634618759155273px 2.5890731811523438px 7.6376953125px 0px rgba(0, 0, 0, 0.06), 6.567749977111816px 4.909649848937988px 12.837499618530273px 0px rgba(0, 0, 0, 0.08), 10.903491020202637px 8.150785446166992px 21.3701171875px 0px rgba(0, 0, 0, 0.09), 16.624616622924805px 12.42755126953125px 34.439064025878906px 0px rgba(0, 0, 0, 0.10), 23.885059356689453px 17.85501480102539px 53.24785232543945px 0px rgba(0, 0, 0, 0.12), 32.838748931884766px 24.548248291015625px 79px 0px rgba(0, 0, 0, 0.15);
+    
+}
+
+.movie__item-info {
+    display:flex;
+    align-items: center;
+    width: 50%;
+}
+
+.movie__item-img {
+    border-radius: 100%;
+    box-shadow: 20px 20px 30px 0px rgba(0, 0, 0, 0.30);
+}
+
+.movie__item-maininfo {
+    margin-left: 3rem;
+    display:flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 38%;
+}
+
+.movie__item-stats {
+    display:flex;
+    justify-content: space-between;
+}
+
+.movie__item-rating, .movie__item-favorite {
+    display:flex;
+    gap: 1rem;
+}
+
+.fa-star {
+    color: yellow;
+}
+
+.fa-heart {
+    color: red;
+}
+
+.movie__item-resume {
+    width: 50%;
+    font-size: 18px;
 }
 
